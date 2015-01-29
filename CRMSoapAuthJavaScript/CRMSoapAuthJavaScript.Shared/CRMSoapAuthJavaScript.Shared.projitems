@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>c4b0d38b-5885-4e4a-99e4-3d9a0f8ef3c9</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)js\jquery-2.1.3.min.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\navigator.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\sha1.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\Xrm.CRMAuth.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\Xrm.ExecuteSOAP.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\home\home.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\home\home.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\whoami\whoami.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\whoami\whoami.js" />
+  </ItemGroup>
+</Project>

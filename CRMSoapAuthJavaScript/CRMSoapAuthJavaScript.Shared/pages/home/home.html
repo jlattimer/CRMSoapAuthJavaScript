@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>homePage</title>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/home/home.css" rel="stylesheet" />
+    <script src="/pages/home/home.js"></script>
+
+    <script src="/js/jquery-2.1.3.min.js"></script>
+    <script src="/js/sha1.js"></script>
+    <script src="/js/Xrm.CRMAuth.js"></script>
+    <script src="/js/Xrm.ExecuteSOAP.js"></script>
+</head>
+<body>
+    <!-- The content that will be loaded and displayed. -->
+    <div class="fragment homepage">
+        <header aria-label="Header content" role="banner">
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Login</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div>
+                <label for="url">CRM Url</label>
+                <br />
+                <input type="text" id="url" name="url" placeholder="CRM Url" />
+            </div>
+            <div>
+                <label for="username">Username</label>
+                <br />
+                <input type="text" id="username" name="username" placeholder="Username" />
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <br />
+                <input type="password" id="password" name="password" placeholder="Password" />
+            </div>
+            <div>
+                <input type="button" id="login" value="Login" />
+            </div>
+        </section>
+    </div>
+</body>
+</html>
