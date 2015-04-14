@@ -115,6 +115,15 @@ Xrm.CRMAuth.GetUrnOnline = function (url) {
     if (url.toUpperCase().indexOf('CRM5.DYNAMICS.COM') !== -1) {
         return 'crmapac:dynamics.com';
     }
+    if (url.toUpperCase().indexOf('CRM6.DYNAMICS.COM') !== -1) {
+        return 'crmoce:dynamics.com';
+    }
+    if (url.toUpperCase().indexOf('CRM7.DYNAMICS.COM') !== -1) {
+        return 'crmjpn:dynamics.com';
+    }
+    if (url.toUpperCase().indexOf('CRM9.DYNAMICS.COM') !== -1) {
+        return 'crmgcc:dynamics.com';
+    }
     return 'crmna:dynamics.com';
 };
 
